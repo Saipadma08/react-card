@@ -1,5 +1,4 @@
 import Section1 from './components/Section1/section1';
-import Section2 from './components/Section2/section2';
 
 const App= ()=> {
 
@@ -20,7 +19,6 @@ const App= ()=> {
   return (
     <div>
       <Section1 users={users}/>
-      <Section2/>
       
     </div>
   )
