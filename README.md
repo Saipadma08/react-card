@@ -1,25 +1,45 @@
-Prospective Customer Segmentation UI
-A modern, responsive dashboard interface built with React.js to visualize different customer segments (Professional, Industrial, Beauty). This project demonstrates a component-based approach to building complex, data-driven layouts.
-🚀 Features
- Modular Component Architecture:
- Built with reusable React components for easy scalability.Dynamic Segmentation Cards: Visual cards for different target audiences featuring image overlays and action   buttons.Responsive Design: Optimized for various screen sizes using modern CSS techniques.Clean UI/UX: High-contrast typography and a professional color palette.
-🛠️ Tech StackFrontend:
- React.jsStyling: 
- [Tailwind CSS / Styled Components / CSS Modules] (Choose one)Icons: [Lucide React]
+# 📊 React Customer Segmentation Dashboard
 
- 📂 Project Structure
- src/
+A modern, responsive dashboard built using **React.js** to visualize different customer segments like **Professional, Industrial, and Beauty**.
+
+This project demonstrates a **component-based architecture** for building scalable, data-driven UI.
+
+---
+
+## 🚀 Features
+
+- 📦 Modular Component Architecture  
+- 🧩 Reusable React Components  
+- 🎯 Dynamic Segmentation Cards  
+- 📱 Responsive Design  
+- 🎨 Clean UI/UX with modern styling  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js  
+- **Styling:** Tailwind CSS / CSS Modules / Styled Components  
+- **Icons:** Lucide React  
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
 ├── components/
-│   └── Section1/             # Container for the Customer Segmentation section
-│       ├── Section1.jsx      # Main orchestrator component
-│       ├── Page1Content.jsx  # Layout wrapper for Section 1
-│       ├── Navbar.jsx        # Navigation elements
-│       ├── HeroText.jsx      # Header: "Prospective Customer Segmentation"
-│       ├── LeftContent.jsx   # Sidebar text and action buttons
-│       ├── RightCard.jsx     # Main container for segment visuals
-│       ├── RightContent.jsx  # Layout logic for card positioning
-│       ├── RightCardContent.jsx # Individual segment details (Professional, etc.)
-│       └── Arrow.jsx         # Reusable UI element for navigation/pointers
-├── App.jsx                   # Application root
-├── Main.jsx                  # Entry point
-└── index.css                 # Tailwind CSS & Global styles
+│   ├── Section1/
+│   │   ├── Section1.jsx        # Main orchestrator component
+│   │   ├── Page1Content.jsx   # Layout wrapper
+│   │   ├── HeroText.jsx       # Header section
+│   │   ├── LeftContent.jsx    # Sidebar content
+│   │   ├── RightCard.jsx      # Main visual cards
+│   │   ├── RightContent.jsx   # Layout positioning logic
+│   │   ├── RightCardContent.jsx # Segment details
+│   │   ├── Arrow.jsx          # Reusable UI element
+│   ├── Navbar.jsx             # Navigation
+│
+├── App.jsx                    # Root component
+├── Main.jsx                   # Entry point
+├── index.css                  # Global styles
