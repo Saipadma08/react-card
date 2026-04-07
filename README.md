@@ -43,6 +43,6 @@ src/
 ├── App.jsx                    # Root component
 ├── Main.jsx                   # Entry point
 ├── index.css                  # Global styles
-## Screenshot
-<img width="3348" height="2284" alt="localhost_5173_ (3)" src="https://github.com/user-attachments/assets/100c59d5-260a-46d7-b357-6450288ff876" />
+
+
 
