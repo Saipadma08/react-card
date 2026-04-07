@@ -1,16 +1,25 @@
-# React + Vite
+Prospective Customer Segmentation UI
+A modern, responsive dashboard interface built with React.js to visualize different customer segments (Professional, Industrial, Beauty). This project demonstrates a component-based approach to building complex, data-driven layouts.
+🚀 Features
+ Modular Component Architecture:
+ Built with reusable React components for easy scalability.Dynamic Segmentation Cards: Visual cards for different target audiences featuring image overlays and action   buttons.Responsive Design: Optimized for various screen sizes using modern CSS techniques.Clean UI/UX: High-contrast typography and a professional color palette.
+🛠️ Tech StackFrontend:
+ React.jsStyling: 
+ [Tailwind CSS / Styled Components / CSS Modules] (Choose one)Icons: [Lucide React]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ 📂 Project Structure
+ src/
+├── components/
+│   └── Section1/             # Container for the Customer Segmentation section
+│       ├── Section1.jsx      # Main orchestrator component
+│       ├── Page1Content.jsx  # Layout wrapper for Section 1
+│       ├── Navbar.jsx        # Navigation elements
+│       ├── HeroText.jsx      # Header: "Prospective Customer Segmentation"
+│       ├── LeftContent.jsx   # Sidebar text and action buttons
+│       ├── RightCard.jsx     # Main container for segment visuals
+│       ├── RightContent.jsx  # Layout logic for card positioning
+│       ├── RightCardContent.jsx # Individual segment details (Professional, etc.)
+│       └── Arrow.jsx         # Reusable UI element for navigation/pointers
+├── App.jsx                   # Application root
+├── Main.jsx                  # Entry point
+└── index.css                 # Tailwind CSS & Global styles
